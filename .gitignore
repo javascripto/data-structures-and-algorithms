@@ -1,0 +1,110 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build outputs
+build/
+dist/
+out/
+target/
+bin/
+obj/
+tmp/
+temp/
+
+# C / C++
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+*.dSYM/
+
+# Make
+*.d
+
+# Rust
+target/
+Cargo.lock
+
+# Go
+*.test
+coverage.out
+go.work
+go.work.sum
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+out/
+target/
+.settings/
+.project
+.classpath
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# TypeScript / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+dist/
+coverage/
+.next/
+.nuxt/
+.turbo/
+
+# Benchmarks / profiling
+*.prof
+*.gcda
+*.gcno
+*.gcov
+perf.data
+perf.data.old
+
+# Temporary files
+*.tmp
+*.temp
